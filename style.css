@@ -1,3 +1,29 @@
-.pagina-inicio {
-    
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+body{
+    margin: 0;
+    background-color: #4b39b5;
+    font-family: "Noto Sans", sans-serif;
 }
+.pagina-inicio {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+    
+ .pagina-inicio h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.caixa-amarela{
+    background-color: #fdcb02;
+    width: 85%;
+    max-width: 1000px;
+    padding: 60px;
+    border-radius: 25px;
+    text-align: center;    
+}
+
