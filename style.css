@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
 
+/*Pagina Inicial*/
 body{
     background-image: url("Fundo-Quiz.jpg");
     background-repeat: no-repeat;
@@ -37,7 +38,7 @@ body{
     text-align: center;    
 }
 
-h2{
+.pagina-inicio h2{
    position: relative;
    top: -65px;
 }
@@ -77,4 +78,57 @@ h2{
     text-align: center;
     width: 200px;
     text-decoration: none;
+}
+/*Quiz Facil*/
+
+.quiz-facil{
+    background-image: url("Fundo-Quiz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.quiz-facil{
+    margin: 0;
+}
+.quiz-facil h1 {
+    text-align: center;
+}
+
+.quiz-facil h2{
+    font-size: 1.2rem;
+}
+.PerguntasF form{
+    margin: 0;
+}
+.PerguntasF{
+    background-color: #fdcb02;
+    width: 70%;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-sizing: border-box;
+     border: 5px solid red;
+}
+.pergunta{
+    margin-bottom: 60px;
+     border: 2px solid blue;
+}
+.pergunta h2{
+    margin: 0 0 20px 0;
+}
+.pergunta label{
+    display: block;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.pergunta label:hover {
+    background-color: rgba(0,0,0,0.1);
 }
