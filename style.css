@@ -111,11 +111,10 @@ body{
     max-width: 1000px;
     margin: 40px auto;
     box-sizing: border-box;
-     border: 5px solid red;
+    border: #ffffffab 5px solid;
 }
 .pergunta{
     margin-bottom: 60px;
-     border: 2px solid blue;
 }
 .pergunta h2{
     margin: 0 0 20px 0;
@@ -131,4 +130,39 @@ body{
 
 .pergunta label:hover {
     background-color: rgba(0,0,0,0.1);
+}
+
+.quiz-facil h1{
+    margin-top: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: "Lilita One", sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.pontos{
+    background-color: #fdcb02;
+    width: 70%;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-sizing: border-box;
+    border: #ffffffab 5px solid;
+}
+.pontos button{
+    background-color: #4eb539;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    border-color: white;
+    cursor: pointer;
+}
+
+#ponto{
+    font-size: 20px;
+    
 }
